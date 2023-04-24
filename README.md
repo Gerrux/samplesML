@@ -1,9 +1,10 @@
 # samplesML
 
+
+```  
 from joblib import Parallel, delayed
 import joblib
-  
-```  
+
 # Save the model as a pickle in a file
 joblib.dump(knn, 'filename.pkl')
   
